@@ -4,5 +4,5 @@ COPY r.txt .
 RUN pip install --no-cache-dir -r r.txt 
 WORKDIR /app 
 COPY . . 
-ENTRYPOINT [ "python","init_db.py" ]
+ENTRYPOINT [ "python","init.py" ]
 CMD ["python","main.py"]
