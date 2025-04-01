@@ -1,0 +1,9 @@
+.vercel
+env/
+
+__pycache__/
+plan.txt
+*.sqlite3
+
+
+vercel.json
